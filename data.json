@@ -1,0 +1,16 @@
+{
+  "nutrients": {
+    "level": 20,
+    "days_left":4
+  },
+  "water_level": {
+    "level": 85,
+    "days_left":9
+  },
+  "temperature": 70,
+  "light": true,
+  "schedule" : {
+    "start": 830,
+    "end": 1830
+  }
+}
