@@ -4,6 +4,10 @@ body {
   background: linear-gradient(to left, #76b852 , #8DC26F);
 }
 
+.container {
+  text-align: center;
+}
+
 .clock {
   width: 20%;
   height: 20%;

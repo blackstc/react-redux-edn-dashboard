@@ -12,7 +12,6 @@ class Dashboard extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div className="col-xs-12">
         <div className="col-xs-4">
