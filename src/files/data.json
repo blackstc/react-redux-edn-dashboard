@@ -1,16 +1,37 @@
 {
   "nutrients": {
-    "level": 20,
+    "level": 40,
     "days_left":4
   },
   "water_level": {
-    "level": 85,
+    "level": 80,
     "days_left":9
   },
-  "temperature": 70,
   "light": true,
   "schedule" : {
     "start": 830,
     "end": 1830
+  },
+  "widget_info": {
+    "nutrients": {
+      "title": "Nutrients",
+      "image_url":"pill.png",
+      "status" : true
+    },
+    "light": {
+      "title" : "Light",
+      "image_url" : "light-bulb.png",
+      "status" : true
+    },
+    "water": {
+      "title" : "Water Level",
+      "image_url": "water.png",
+      "status" : true
+    },
+    "temperature": {
+      "title" : "Temperature",
+      "image_url": "thermometer.png",
+      "status" : true
+    }
   }
 }

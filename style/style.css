@@ -8,21 +8,43 @@ body {
   text-align: center;
 }
 
-.clock {
-  width: 20%;
-  height: 20%;
-}
-
 .hour {
-  font-size: 40px;
-  padding: 10px;
+  font-size: 50px;
 }
 
 .start-time .end-time {
-  font-size: 15px;
+  font-size: 20px;
 }
 
-.image {
-  height: 35%;
-  width: 35%;
+.scheduler {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+}
+
+.bar-graph {
+  margin-top: 20px;
+}
+
+.days-left {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.days {
+  font-size: 50px;
+}
+
+.round-border {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+}
+
+.bar {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
 }
