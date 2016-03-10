@@ -12,7 +12,7 @@ const Bar = (props) => {
             max={100}
             width={30}
             height={400}
-            backgroundColor={'white'}
+            backgroundColor={'gray'}
             fillColor={'blue'}
             current={props.level}
           />
@@ -29,7 +29,7 @@ const Bar = (props) => {
             max={100}
             width={30}
             height={400}
-            backgroundColor={'white'}
+            backgroundColor={'gray'}
             fillColor={'red'}
             current={props.level}
           />
