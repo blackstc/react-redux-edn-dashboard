@@ -14,9 +14,9 @@ const Scheduler = (props) => {
           {props.end}
         </div>
       </div>
-      <img className='clock col-xs-2' src='clock.png'></img>
+      <img className='clock col-xs-2' src='../style/images/clock.png'></img>
       </div>
-    )   
+    )
 }
 
 export default Scheduler;

@@ -15,22 +15,22 @@
   "widget_info": {
     "nutrients": {
       "title": "Nutrients",
-      "image_url":"pill.png",
+      "image_url" : "../style/images/pill.png",
       "status" : true
     },
     "light": {
       "title" : "Light",
-      "image_url" : "light-bulb.png",
+      "image_url" : "../style/images/light-bulb.png",
       "status" : true
     },
     "water": {
       "title" : "Water Level",
-      "image_url": "water.png",
+      "image_url": "../style/images/water.png",
       "status" : true
     },
     "temperature": {
       "title" : "Temperature",
-      "image_url": "thermometer.png",
+      "image_url": "../style/images/thermometer.png",
       "status" : true
     }
   }
