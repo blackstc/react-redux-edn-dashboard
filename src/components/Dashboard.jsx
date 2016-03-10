@@ -1,11 +1,18 @@
 import React from 'react';
 import { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchData } from '../actions/index';
 
 import Scheduler from './Scheduler';
 import SquareWidget from './SquareWidget'
 
 class Dashboard extends Component {
+  componentWillMount() {
+    this.props.fetchData();
+  }
+
   render() {
+    console.log(this.props)
     return (
       <div className="col-xs-12">
         <div className="col-xs-4">
@@ -33,4 +40,8 @@ class Dashboard extends Component {
   }
 }
 
-export default Dashboard;
+function mapStateToProps(state) {
+  return { data: state.data.all };
+}
+
+export default connect(mapStateToProps, { fetchData })(Dashboard);
