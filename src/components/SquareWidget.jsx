@@ -1,10 +1,12 @@
 import React from 'react';
 
-export default const SquareWidget = (props) => {
+const SquareWidget = (props) => {
   return (
-    <div className='square-widget'>
-      <img className='image' src='image.png'></img>
-      <span>Image Title</span>
+    <div className="square-widget">
+      <img className="image" src="light-bulb.png" />
+      <p>Lights</p>
     </div>
   )
 }
+
+export default SquareWidget;
