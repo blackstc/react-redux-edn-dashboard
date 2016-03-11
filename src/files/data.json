@@ -1,11 +1,11 @@
 {
   "nutrients": {
-    "level": 35,
+    "level": 49,
     "days_left":3
   },
   "water_level": {
     "level": 75,
-    "days_left":12
+    "days_left":9
   },
   "schedule" : {
     "start": {
@@ -31,7 +31,7 @@
     "water": {
       "title" : "Water Level",
       "image_url": "../style/images/water.png",
-      "status" : true
+      "status" : false
     },
     "temperature": {
       "title" : "Temperature",
