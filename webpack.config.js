@@ -17,8 +17,8 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
+    port: process.env.PORT || 3000,
     historyApiFallback: true,
-    contentBase: './',
-    port: process.env.PORT || 3000
+    contentBase: './'
   }
 };
