@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Ormont_Light.ttf);
+}
+
 body {
   background-image: url(./images/Blurred_Background.jpg);
 }
@@ -7,12 +12,23 @@ body {
   text-align: center;
 }
 
+.title {
+  font-family: 'myFirstFont';
+  font-style: 'myFirstFont';
+  font-weight: bold;
+}
+
 .hour, .days {
+  margin-top: 10px;
+  font-family: 'myFirstFont';
+  font-style: 'myFirstFont';
+  font-weight: bold;
   font-size: 50px;
 }
 
 .start-time, .end-time, .days-left {
   font-size: 20px;
+  font-weight: bold;
 }
 
 .scheduler, .round-border, .bar {
@@ -24,7 +40,7 @@ body {
 .false {
   margin-top: 10px;
   border-radius: 20px;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.45);
 }
 
 .scheduler {

@@ -1,13 +1,12 @@
 {
   "nutrients": {
-    "level": 40,
-    "days_left":4
+    "level": 35,
+    "days_left":3
   },
   "water_level": {
-    "level": 80,
-    "days_left":9
+    "level": 75,
+    "days_left":12
   },
-  "light": true,
   "schedule" : {
     "start": 830,
     "end": 1830
@@ -16,7 +15,7 @@
     "nutrients": {
       "title": "Nutrients",
       "image_url" : "../style/images/pill.png",
-      "status" : true
+      "status" : false
     },
     "light": {
       "title" : "Light",

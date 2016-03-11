@@ -13,7 +13,7 @@ const Bar = (props) => {
             width={30}
             height={400}
             backgroundColor={'gray'}
-            fillColor={'blue'}
+            fillColor={'#58648E'}
             current={props.level}
           />
         </div>

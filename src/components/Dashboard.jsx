@@ -22,18 +22,20 @@ class Dashboard extends Component {
   return (
     <div className="col-xs-12">
       <div className="col-xs-4">
-        <p className="days-left">Remaining Days:</p>
+        <p className="days-left title">Remaining Days</p>
           <div className="bar-graph col-xs-6">
             <Bar
               level={this.props.data.water_level.level}
               days={this.props.data.water_level.days_left}
             />
+          <p className='title'>Water Level</p>
           </div>
           <div className="bar-graph col-xs-6">
             <Bar
               level={this.props.data.nutrients.level}
               days={this.props.data.nutrients.days_left}
             />
+          <p className='title'>Nutrient Level</p>
           </div>
         </div>
 
@@ -49,24 +51,28 @@ class Dashboard extends Component {
               <SquareWidget
                 title={this.props.data.widget_info.light.title}
                 image={this.props.data.widget_info.light.image_url}
+                status={this.props.data.widget_info.light.status}
               />
             </div>
           <div className="col-xs-6">
             <SquareWidget
               title={this.props.data.widget_info.water.title}
               image={this.props.data.widget_info.water.image_url}
+              status={this.props.data.widget_info.water.status}
             />
           </div>
           <div className="col-xs-6">
             <SquareWidget
               image={this.props.data.widget_info.temperature.image_url}
               title={this.props.data.widget_info.temperature.title}
+              status={this.props.data.widget_info.temperature.status}
             />
           </div>
           <div className="col-xs-6">
             <SquareWidget
               title={this.props.data.widget_info.nutrients.title}
               image={this.props.data.widget_info.nutrients.image_url}
+              status={this.props.data.widget_info.nutrients.status}
             />
           </div>
         </div>
