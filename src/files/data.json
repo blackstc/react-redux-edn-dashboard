@@ -8,8 +8,14 @@
     "days_left":12
   },
   "schedule" : {
-    "start": 830,
-    "end": 1830
+    "start": {
+      "time": 830,
+      "meridiem":"AM"
+      },
+    "end": {
+      "time":630,
+      "meridiem":"PM"
+    }
   },
   "widget_info": {
     "nutrients": {

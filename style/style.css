@@ -31,10 +31,20 @@ body {
   font-weight: bold;
 }
 
+.meridiem {
+  font-family: 'myFirstFont';
+  font-style: 'myFirstFont';
+  margin-left:10px;
+  font-size: 20px;
+}
 .scheduler, .round-border, .bar {
   margin-top: 10px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.schedule-container {
+  height: 100px;
 }
 
 .false {
@@ -44,13 +54,17 @@ body {
 }
 
 .scheduler {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .bar-graph, .days-left {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .therm {
   margin-left: 47px;
+}
+
+.clock {
+  margin-top: 10px;
 }
