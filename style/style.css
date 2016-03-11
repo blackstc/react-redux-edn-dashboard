@@ -1,17 +1,25 @@
+@font-face {
+  font-family: StdEngschrift;
+  src: url("StdEngschrift.otf") format("opentype");
+}
+
 body {
   background-image: url(./images/Blurred_Background.jpg);
 }
 
 .container {
-  /*color: white;*/
   text-align: center;
 }
 
 .hour, .days {
+  font-family: 'StdEngschrift';
+  font-style: 'StdEngschrift';
   font-size: 50px;
 }
 
 .start-time, .end-time, .days-left {
+  font-family: 'StdEngschrift';
+  font-style: 'StdEngschrift';
   font-size: 20px;
 }
 
